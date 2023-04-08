@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        body{
+            margin-left:350px;
+            margin-right:350px;
+            border: 1px solid black;
+            text-align: center;
+            color: black;
+         }
+        h1{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            border: 2px solid black;
+            text-align: center;
+            color: black;
+        }
+        h2{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: brown;
+         }
+    </style>
+    <head>
+        <title>ASSESSMENT-3</title>
+    </head>
+    <body>
+        <h1 style="background-color: rgba(255,99,71,0.7);"><strong>ASSESSMENT-3</strong></h1>
+        <h2><strong>CONTACT FORM</strong></h2>
+        <form>
+        <label for="fname">FIRST NAME:</label>
+        <input type="text" id="fname" required><br><br><br>
+        <label for="lname">LAST NAME:</label>
+        <input type="text" id="lname" required><br><br><br>
+        <label for="dob">DATE OF BIRTH:</label>
+        <input type="date" id="dob"><br><br><br>
+        <label for="phno">PHONE NUMBER:</label>
+        <input type="number" id="phno" required>
+        <h4>GENDER:</h4>
+        <input type="radio" id="male">
+        <label for="male">MALE</label><br><br>
+        <input type="radio" id="female">
+        <label for="female">FEMALE</label><br><br>
+        <h4>MODE OF TRANSPORTATION:</h4>
+        <input type="checkbox" id="v1">
+        <label for="v1">CAR</label><br><br>
+        <input type="checkbox" id="v2">
+        <label for="v2">BIKE</label><br><br>
+        <input type="checkbox" id="v3">
+        <label for="v3">SHUTTLE</label><br><br><br>
+        <label for="messagebox">TELL US YOUR QUERY:</label><br>
+        <textarea id="messagebox" rows="10" cols="55" required></textarea><br><br><br>
+        <label>COURSE:</label>
+        <select>
+            <option value="SELECT">SELECT</option>
+            <option value="FULL STACK">FULL STACK</option>
+            <option value="DATA SCIENCE">DATA SCIENCE</option>
+            <option value="CLOUD COMPUTING">CLOUD COMPUTING</option>
+            <option  value="CYBER SECURITY">CYBER SECURITY</option>
+
+        </select>
+        <br><br>
+        <input type="submit" id="SUBMIT">
+        </form>
+    </body>
+</html>
